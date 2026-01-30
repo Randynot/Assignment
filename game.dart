@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'dart:math';
 
-// Data structure for Player to acces and review play 
+// Data structure for Player to acces and review play i am going to be the worlds greatest developer in a year 
 class Player {
   String name;
   int health;
