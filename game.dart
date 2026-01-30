@@ -3,6 +3,7 @@ import 'dart:math';
 
 // Data structure for Player to acces and review play i am going to be the worlds greatest developer in a year 
 class Player {
+//well i am cooked 
   String name;
   int health;
   int gold;
