@@ -9,7 +9,7 @@ class Player {
   int gold;
   List<String> inventory;
   Set<String> activeEffects;
-
+List<String> memore =[];
   Player(this.name)
       : health = 100,
 // Data structure for Monster
