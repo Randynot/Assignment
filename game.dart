@@ -13,6 +13,7 @@ List<String> memore =[];
   Player(this.name)
       : health = 100,
 // Data structure for Monster
+//had to add more retouches 
 class Monster {
   String name;
   int health;
