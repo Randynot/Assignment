@@ -1,9 +1,8 @@
 import 'dart:io';
 import 'dart:math';
 
-// Data structure for Player to acces and review play i am going to be the worlds greatest developer in a year 
 class Player {
-//well i am cooked 
+
   String name;
   int health;
   int gold;
@@ -12,8 +11,7 @@ class Player {
 List<String> memore =[];
   Player(this.name)
       : health = 100,
-// Data structure for Monster
-//had to add more retouches 
+
 class Monster {
   String name;
   int health;
@@ -24,9 +22,9 @@ class Monster {
 
   int attack(Random rng) => rng.nextInt(maxDamage - minDamage + 1) + minDamage;
 }
-//I am that good 
 
-// Main Game Class
+
+
 class DungeonGame {
   final Random rng = Random();
   late Player player;
