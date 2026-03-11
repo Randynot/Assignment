@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'dart:math';
-
+//this is class oriented 
 class Player {
 //sadddddd
   String name;
