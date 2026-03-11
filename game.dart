@@ -23,7 +23,7 @@ class Monster {
   int attack(Random rng) => rng.nextInt(maxDamage - minDamage + 1) + minDamage;
 }
 
-
+//Dungeon generated 
 
 class DungeonGame {
   final Random rng = Random();
